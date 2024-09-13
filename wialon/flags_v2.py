@@ -84,39 +84,39 @@ ACCESSFLAG_RETRANSLATOR_MANAGE_PROPERTIES = 0x100000
 ACCESSFLAG_RETRANSLATOR_MANAGE_UNITS = 0x2000000
 
 ## Resources (Accounts) - https://sdk.wialon.com/wiki/en/sidebar/remoteapi/apiref/core/check_items_billing#resources_accounts
-# View this account's notifications
+# View this resource's notifications
 ACCESSFLAG_RESOURCE_VIEW_NOTIFICATIONS = 0x0000000100000
-# Manage this account's notifications
+# Manage this resource's notifications
 ACCESSFLAG_RESOURCE_MANAGE_NOTIFICATIONS = 0x0000000200000
-# View this account's points of interest
+# View this resource's points of interest
 ACCESSFLAG_RESOURCE_VIEW_POIS = 0x0000000400000
-# Manage this account's points of interest
+# Manage this resource's points of interest
 ACCESSFLAG_RESOURCE_MANAGE_POIS = 0x0000000800000
-# View this account's geofences
+# View this resource's geofences
 ACCESSFLAG_RESOURCE_VIEW_GEOFENCES = 0x0000001000000
-# Manage this account's geofences
+# Manage this resource's geofences
 ACCESSFLAG_RESOURCE_MANAGE_GEOFENCES = 0x0000002000000
-# View this account's jobs
+# View this resource's jobs
 ACCESSFLAG_RESOURCE_VIEW_JOBS = 0x0000004000000
-# Manage this account's jobs
+# Manage this resource's jobs
 ACCESSFLAG_RESOURCE_MANAGE_JOBS = 0x0000008000000
-# View this account's report templates
+# View this resource's report templates
 ACCESSFLAG_RESOURCE_VIEW_REPORT_TEMPLATES = 0x0000010000000
-# Manage this account's report templates
+# Manage this resource's report templates
 ACCESSFLAG_RESOURCE_MANAGE_REPORT_TEMPLATES = 0x0000020000000
-# View this account's drivers
+# View this resource's drivers
 ACCESSFLAG_RESOURCE_VIEW_DRIVERS = 0x0000040000000
-# Manage this account's drivers
+# Manage this resource's drivers
 ACCESSFLAG_RESOURCE_MANAGE_DRIVERS = 0x0000080000000
-# Manage this account itself
-ACCESSFLAG_RESOURCE_MANAGE_ACCOUNT = 0x0000100000000
-# View this account's orders
+# Manage this resource itself
+ACCESSFLAG_RESOURCE_MANAGE_SELF = 0x0000100000000
+# View this resource's orders
 ACCESSFLAG_RESOURCE_VIEW_ORDERS = 0x0000200000000
-# Manage this account's orders
+# Manage this resource's orders
 ACCESSFLAG_RESOURCE_MANAGE_ORDERS = 0x0000400000000
-# View this account's trailers
+# View this resource's trailers
 ACCESSFLAG_RESOURCE_VIEW_TRAILERS = 0x0100000000000
-# Manage this account's trailers
+# Manage this resource's trailers
 ACCESSFLAG_RESOURCE_MANAGE_TRAILERS = 0x0200000000000
 
 ## Routes - https://sdk.wialon.com/wiki/en/sidebar/remoteapi/apiref/core/check_items_billing#routes
